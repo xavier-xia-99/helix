@@ -36,11 +36,11 @@
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 "hint" = { fg = "bl", modifiers = ["bold"] }
-"info" = { fg = "ye", modifiers = ["bold"] }
-"warning" = { fg = "or", modifiers = ["bold"] }
-"error" = { fg = "re", modifiers = ["italic"] }
+"info" = { fg = "ye", modifiers = ["italic"] }
+"warning" = { fg = "or", modifiers = ["italic"] ,underline = { color = "re", style = "curl" }}
+"error" = { fg = "re", modifiers = ["bold"] , underline = { color = "re", style = "curl" }}
 "attribute" = "ye"
-"type" = "ye"
+"type" = "white"
 "constructor" = "gr"
 "constant" = "pu"
 "constant.builtin" = "ye"
@@ -59,7 +59,7 @@
 "keyword.control.return" = "gr"
 "keyword.function" = "gr"
 "keyword.storage.type" = "bl"
-keyword.storage.modifier" = "bl"
+"keyword.storage.modifier" = "bl"
 "operator" = "tx-2"
 "function" = "or"
 "tag" = "bl"
@@ -98,3 +98,29 @@ cy = "#24837B"
 bl = "#205EA6"
 pu = "#5E409D"
 ma = "#A02F6F"
+
+white = "#dadada"
+
+# PALETTE USER INTERFACE
+deep_abyss = "#080d15"
+stormy_night = "#254862"
+nightfall_blue = "#1f2937"
+midnight_thunder = "#0d1526"
+twilight_blue = "#2c5484"
+pitch_black = "#000000"
+winter_sky = "#f3f4f6"
+slate_gray = "#838a97"
+blaze_orange = "#ff9000"
+lemon_zest = "#ffba00"
+leafy_green = "#81be83"
+dreamy_blue = "#6eb0ff"
+crystal_blue = "#99c7ff"
+sky_blue = "#45b1e8"
+moonlight_ocean = "#0c1420"
+rustic_red = "#540b0c"
+ruby_glow = "#fa7970"
+walnut_brown = "#987654"
+rustic_amber = "#9d5800"
+slate_purple = "#d2a8ff"
+light_purple = "#7533bd"
+deep_purple = "#4c1785"
