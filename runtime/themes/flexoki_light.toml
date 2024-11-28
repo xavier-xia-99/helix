@@ -35,15 +35,9 @@
 "diagnostic.unnecessary" = { modifiers = ["dim"] }
 "diagnostic.deprecated" = { modifiers = ["crossed_out"] }
 "hint" = { fg = "bl", modifiers = ["bold"] }
-<<<<<<< Updated upstream
 "info" = { fg = "ye", modifiers = ["bold"] }
 "warning" = { fg = "or", modifiers = ["bold"] }
-"error" = { fg = "re", modifiers = ["italic"] }
-=======
-"info" = { fg = "ye", modifiers = ["italic"] }
-"warning" = { fg = "or", modifiers = ["italic"] }
-"error" = { fg = "re", modifiers = ["bold"]  }
->>>>>>> Stashed changes
+"error" = { fg = "re", modifiers = ["bold"] }
 "attribute" = "ye"
 "type" = "ye"
 "constructor" = "gr"
@@ -64,7 +58,7 @@
 "keyword.control.return" = "gr"
 "keyword.function" = "gr"
 "keyword.storage.type" = "bl"
-keyword.storage.modifier" = "bl"
+"keyword.storage.modifier" = "bl"
 "operator" = "tx-2"
 "function" = "or"
 "tag" = "bl"
